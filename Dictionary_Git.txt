@@ -1,0 +1,28 @@
+ls - список файлов текущего каталога
+ls -la - список файлов
+pwd - точный путь до текущей папки
+cd - перемещение между каталогами (cd /d/project_data_sience)
+touch - содание файла (touch hello.txt)
+mkdir - создание каталога/папки (mkdir test)
+echo - вывести фразу в консоль (echo 'Hello, Git!')
+echo str > файл - вывести фразу в файл (echo 'Hello, Git!' > hello.txt)
+echo str >> файл - дозаписать фразу в конец файла (echo 'Hello, world!' >> hello.txt)
+cat - прочитать содержимое файла (cat hello.txt)
+unlink - удалить файл (unlink hello.txt)
+git --version - проверка версии Git
+-----> Настройка Git для регистрации снимков и коммитов
+git config --global user.name 'Irina Yakupova'
+git config --global user.email yakiris@yandex.ru
+git config --list - список настроек
+git config --list --show-origin - месторасположение конфигурационного файла
+git init - пометить текущую папку как git-проект
+git add . - индексируются все новые файлы 
+git add hello.txt - индексируется избранный файл
+git commit -m 'Первый коммит' - создается коммит (снимок состояния) файла
+    -m - комментарий к коммиту
+git config --global core.editor nano - если при создании коммита не указан параметр -m, подключаем редактор nano 
+    <Ctrl>+<O>- запись файла в редакторе nano
+    <Ctrl>+<X> - выход из редактора nano
+git clone - клонирование проекта (git clone https://github.com/web-standards-ru/dictionary.git)
+gitk - запуск графического клиента git для просмотра истории коммитов
+git gui - запуст графического клиента git для создания коммитов
