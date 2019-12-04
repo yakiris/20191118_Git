@@ -25,4 +25,6 @@ git config --global core.editor nano - если при создании комм
     <Ctrl>+<X> - выход из редактора nano
 git clone - клонирование проекта (git clone https://github.com/web-standards-ru/dictionary.git)
 gitk - запуск графического клиента git для просмотра истории коммитов
-git gui - запуст графического клиента git для создания коммитов
+git gui - запуст графического клиента git для создания коммитов (Stage Changed - git add)
+git status - проверка статуса проекта
+git status -s -более компактный вывод статус проекта 
