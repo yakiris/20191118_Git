@@ -66,4 +66,4 @@ git push origin master - отправляет изменения на серве
 git pull origin master - скачивает изменения с сервера github из ветки origin в локальную ветку master
 git remote add origin - регистрирует удаленный сервер в файле .git/config
 git remote - список доступных удаленных (серверных) репозиториев
-git fetch - получение всех изменений с удаленного сервера
+git fetch - получение всех изменений с удаленного сервера gdfg
